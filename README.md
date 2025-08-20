@@ -30,7 +30,6 @@ const commands = [
 In order to execute it, we have to send the correct index into the array and some command that will fetch the flag for us:
 
 ```http
-```http
 POST /server_status HTTP/1.1
 Content-Type: application/x-www-form-urlencoded
 Host: http://<host>:<port>
